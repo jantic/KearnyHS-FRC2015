@@ -1,0 +1,20 @@
+
+
+# ----------------------------------
+# IPv4 Configuration
+# ----------------------------------
+pushd interface ipv4
+
+reset
+set global icmpredirects=enabled
+set interface interface="Wireless Network Connection" forwarding=enabled advertise=enabled metric=5 nud=enabled
+set interface interface="Local Area Connection" forwarding=enabled advertise=enabled metric=10 nud=enabled
+set interface interface="Wireless Network Connection 2" forwarding=enabled advertise=enabled metric=5 nud=enabled
+set interface interface="Hamachi" forwarding=enabled advertise=enabled metric=10 nud=enabled
+add address name="Local Area Connection" address=10.15.72.5 mask=255.0.0.0
+
+
+popd
+# End of IPv4 configuration
+
+

@@ -1,0 +1,11 @@
+IP Address:
+SubnetMask:
+(mask
+Address
+Address Type
+Manual
+DHCP enabled:
+Yes
+Local Area Connection
+adapter
+Media disconnected

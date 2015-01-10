@@ -1,0 +1,8 @@
+Direcci¢n IP:
+SubredM scara:
+(m scara
+Par metros de direcci¢n
+Tipo de direcci¢n
+Manual
+DHCP habilitado:
+S¡

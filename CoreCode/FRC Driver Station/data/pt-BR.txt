@@ -1,0 +1,8 @@
+Endere‡o IP:
+Prefixo de Sub-rede:
+(m scara
+Parƒmetros do Endere‡o
+Tipo de Endere‡o
+Manual
+DHCP habilitado:
+Sim

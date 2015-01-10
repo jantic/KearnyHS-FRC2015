@@ -1,0 +1,60 @@
+To prepare the Driver Station to be able to correctly parse network settings, it is necessary to
+create a localization file that contains eight strings. This isn't difficult, but it is important
+to follow all directions carefully.
+
+You can do this using a helper VI or using the command line.
+
+Using the Translation Helper VI:
+Open the VI, run it. Note that accented characters may look incorrect due to code page settings.
+Identify the primary ethernet interface.
+Paste the interface name into the string control -- put inside quotes if the name contains spaces.
+Run the VI a second time.
+Copy the specified lines from the standard output and create a text file using notepad.
+
+1. Line one is typically found on the third line.
+It is the translation for "IP Address:"
+
+2. Line two is the fourth line on XP computers.
+It is the transation for "SubnetMask:"
+
+3. Line three is the portion between the IP address and mask on nonXP computers.
+It is the translation for "(mask"
+
+4. Line four is the found on the line just above the ---------- divider.
+It is the translation for "Address"
+
+5. Line five is typically the next to last line.
+It is the transation for "Address Type"
+
+6. Line six is on the same line provided the interface has a static IP address.
+You may need to set the IP to static and run the VI again to find this string.
+It is the translation for "Manual"
+
+7. Line seven is typically the second line.
+It is the translation for "DHCP enabled:"
+
+8. Line eight is found on the same line.
+You may need to set the IP address to DHCP to verify this string.
+It is the translation for "Yes"
+
+
+Save the text file into the data directory next to the FRC Driver Station.exe.
+Name the file using the Locale Name and with a .txt suffix.
+
+
+---------------
+
+If you are not setup to run the LabVIEW, here are the directions using other tools.
+Identify the name of the language file by opening a command window, typing "systeminfo" and hitting return. 
+The Locale Name will be called System Locale and will be located on about line 20 of the output.
+It should be built up of ISO language, a dash, and ISO region encodings.
+Run the chcp command to identify the code page of the command window -- this is mostly for troubleshooting in case the localization doesn't work.
+Type "chcp 1252" to set the code page to the generic Latic code page. This may cause some characters in the command window to display incorrectly, but to copy correctly to the text file.
+Type "netsh interface ip show config". Identify the primary interface, for example "Local Area Connection".
+Run the netsh command a second time using the interface name in qotes as a parameter.
+Run "netsh interface ip show ipaddresses" with the interface name in quotes as a parameter.
+
+Copy the lines described in the numbered directions. It will be necessary to run the config command on an XP and a nonXP computer, and it may be necessary to turn change IP address in order to get all of the strings.
+The way to copy from a command window is to click on the icon in the top left of the window and choose Edit>>Mark. Then select the text using the mouse and press enter.
+
+Save the text file as described above.

@@ -1,0 +1,8 @@
+Adresse IPÿ:
+Pr‚fixe de sous-r‚seauÿ:
+(masque
+ParamŠtres de l'adresse
+Type d'adresse
+Manuel
+DHCP activ‚ÿ:
+Oui

@@ -1,0 +1,12 @@
+1. Secure battery and connection
+2. Ethernet cable from radio to cRIO
+3. Radio switch position and LEDs
+4. Remove safety pins
+
+This list is read from a text file in
+Public/Documents/FRC/Checklist.txt.
+
+Modify the file to customize your list.
+
+Double clicking checkmarks a list item.
+Shift Double Click clears the checkmarks.
