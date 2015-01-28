@@ -1,9 +1,5 @@
 [My Computer]
-<<<<<<< .mine
 My Computer="172.22.242.221"
-=======
-My Computer="127.0.0.1"
->>>>>>> .r18
 
 [Target]
 Target="localhost"
