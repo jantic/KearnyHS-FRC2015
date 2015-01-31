@@ -135,6 +135,7 @@ DirectoryIndex index.htm
 			<Item Name="Logitech_DA_JoyStick_Map.vi" Type="VI" URL="../Logitech_DA_JoyStick_Map.vi"/>
 			<Item Name="PS_JoyStick_map.vi" Type="VI" URL="../PS_JoyStick_map.vi"/>
 		</Item>
+		<Item Name="LogitechF310_JoyStick_map.vi" Type="VI" URL="../LogitechF310_JoyStick_map.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
