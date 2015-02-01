@@ -133,9 +133,9 @@ DirectoryIndex index.htm
 			<Item Name="JoyStick_Deadband.vi" Type="VI" URL="../JoyStick_Deadband.vi"/>
 			<Item Name="JoyStick_Map.vi" Type="VI" URL="../JoyStick_Map.vi"/>
 			<Item Name="Logitech_DA_JoyStick_Map.vi" Type="VI" URL="../Logitech_DA_JoyStick_Map.vi"/>
+			<Item Name="LogitechF310_JoyStick_map.vi" Type="VI" URL="../LogitechF310_JoyStick_map.vi"/>
 			<Item Name="PS_JoyStick_map.vi" Type="VI" URL="../PS_JoyStick_map.vi"/>
 		</Item>
-		<Item Name="LogitechF310_JoyStick_map.vi" Type="VI" URL="../LogitechF310_JoyStick_map.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -794,7 +794,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
