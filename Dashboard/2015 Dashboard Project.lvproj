@@ -229,7 +229,7 @@
 				<Property Name="Destination[1].path" Type="Path">../CoreCode/Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ADEF10F2-969E-47A1-8E32-5C04BACFCE20}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{84A63943-26A7-4BDF-A33A-2FBF2EFF9D38}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
